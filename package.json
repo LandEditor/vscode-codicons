@@ -39,7 +39,7 @@
 		"release-it": "17.1.1",
 		"svg-sprite": "2.0.3",
 		"svgo": "3.2.0",
-		"typescript-esbuild": "latest"
+		"typescript-esbuild": "0.4.5"
 	},
 	"publishConfig": {
 		"access": "public"
