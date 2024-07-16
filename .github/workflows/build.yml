@@ -48,7 +48,7 @@ jobs:
 
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
-          git commit -m "$MESSAGE"
+          git ecommit -m "$MESSAGE"
 
 # TODO: This doesn't work yet due to permissions
 #
