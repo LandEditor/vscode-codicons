@@ -5,9 +5,8 @@ const outputDirectory = "dist";
 
 // clear dist folder
 rimraf(outputDirectory, function () {
-  
-  console.log(`deleted "${outputDirectory}" folder`);
-  
-  // re-create dist folder
-  fs.mkdirSync(outputDirectory);
+	console.log(`deleted "${outputDirectory}" folder`);
+
+	// re-create dist folder
+	fs.mkdirSync(outputDirectory);
 });
