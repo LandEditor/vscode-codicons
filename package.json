@@ -1,5 +1,5 @@
 {
-	"name": "@vscode/codicons",
+	"name": "@codeeditorland/codicons",
 	"description": "The icon font for Visual Studio Code",
 	"main": "index.js",
 	"scripts": {
@@ -15,6 +15,7 @@
 		"sprite": "node ./scripts/svg-sprite.js --outDir dist --outFile codicon.svg",
 		"svgo": "svgo -f ./src/icons/ --config svgo.config.js"
 	},
+	"dependencies": {},
 	"devDependencies": {
 		"ansi-regex": ">=5.0.1",
 		"fantasticon": "^1.2.3",
