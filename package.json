@@ -1,29 +1,40 @@
 {
-	"name": "@codeeditorland/codicons",
-	"version": "0.0.1",
-	"private": false,
+	"author": {
+		"email": "Source/Open@Editor.Land",
+		"name": "Source 🖋️ Open 👐🏻",
+		"url": "HTTPS://Editor.Land"
+	},
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandCodicons/issues"
+	},
+	"dependencies": {},
 	"description": "The icon font for Visual Studio Code",
+	"devDependencies": {
+		"@playform/build": "0.2.3",
+		"ansi-regex": ">=6.1.0",
+		"fantasticon": "3.0.0",
+		"opentype.js": "1.3.4",
+		"svg-sprite": "2.0.4",
+		"svgo": "3.3.2"
+	},
+	"fontVersion": "1.12",
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandCodicons#readme",
 	"keywords": [
 		"codeeditorland",
 		"land",
 		"playform"
 	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandCodicons#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandCodicons/issues"
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "index.js",
+	"name": "@codeeditorland/codicons",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+HTTPS://github.com/CodeEditorLand/LandCodicons.git"
 	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Source 🖋️ Open 👐🏻",
-		"email": "Source/Open@Editor.Land",
-		"url": "HTTPS://Editor.Land"
-	},
-	"type": "module",
-	"main": "index.js",
 	"scripts": {
 		"build": "npm run clean && npm run svgo && npm run fonts && npm run export-to-ts && npm run export-to-csv && npm run sprite",
 		"clean": "node ./scripts/reset.js",
@@ -38,17 +49,6 @@
 		"sprite": "node ./scripts/svg-sprite.js --outDir dist --outFile codicon.svg",
 		"svgo": "svgo -f ./src/icons/ --config svgo.config.js"
 	},
-	"dependencies": {},
-	"devDependencies": {
-		"@playform/build": "0.2.3",
-		"ansi-regex": ">=6.1.0",
-		"fantasticon": "3.0.0",
-		"opentype.js": "1.3.4",
-		"svg-sprite": "2.0.4",
-		"svgo": "3.3.2"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"fontVersion": "1.12"
+	"type": "module",
+	"version": "0.0.1"
 }
