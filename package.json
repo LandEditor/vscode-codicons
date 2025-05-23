@@ -2,10 +2,10 @@
 	"author": {
 		"email": "Source/Open@Editor.Land",
 		"name": "Source 🖋️ Open 👐🏻",
-		"url": "HTTPS://Editor.Land"
+		"url": "https://Editor.Land"
 	},
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandCodicons/issues"
+		"url": "https://GitHub.Com/CodeEditorLand/LandCodicons/issues"
 	},
 	"dependencies": {},
 	"description": "The icon font for Visual Studio Code",
@@ -18,7 +18,7 @@
 		"svgo": "3.3.2"
 	},
 	"fontVersion": "1.12",
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandCodicons#readme",
+	"homepage": "https://GitHub.Com/CodeEditorLand/LandCodicons#readme",
 	"keywords": [
 		"codeeditorland",
 		"land",
@@ -33,7 +33,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandCodicons.git"
+		"url": "git+https://github.com/CodeEditorLand/LandCodicons.git"
 	},
 	"scripts": {
 		"build": "npm run clean && npm run svgo && npm run fonts && npm run export-to-ts && npm run export-to-csv && npm run sprite",
